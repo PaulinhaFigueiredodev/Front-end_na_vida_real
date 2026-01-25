@@ -1,1 +1,1 @@
-Um texti=o para inicializar o readme
+Um texto para inicializar o readme
