@@ -1,0 +1,12 @@
+html {
+  color: red;
+}
+
+.paragraph {
+  color: inherit; /* Herdar a cor do elemento pai */
+  width: 200px;
+}
+
+.bold {
+  color: initial;
+}
