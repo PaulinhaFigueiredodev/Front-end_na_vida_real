@@ -1,0 +1,22 @@
+/* cada seletor tem um peso diferente na hora de aplicar o estilo */
+
+/* Nesse seletor, temos uma ID (#box) que tem mais peso que uma classe (.box) */
+#box {
+  background: green;
+}
+
+/* Nesse seletor, temos uma classe (.box) que tem mais peso que uma tag (div) */
+.box {
+  background: blue;
+}
+
+/* Nesse seletor, temos uma tag (div) que tem menos peso que uma classe (.box) */
+div {
+  height: 100px;
+  background: yellow;
+}
+/* Nesse seletor, usamos !important, que tem mais peso que qualquer outro seletor */
+/* Porem nao é uma boa */
+div {
+  background: green !important;
+}
