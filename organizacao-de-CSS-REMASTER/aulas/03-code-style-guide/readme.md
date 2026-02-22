@@ -197,3 +197,38 @@ Não use valores iniciados com zero:
 }
 ```
 
+### Declarações
+
+Todas as declarações devem estar em ordem alfabetica.
+
+```css
+/* bom */
+.btn {
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+
+/* ruim */
+.btn {
+    color: #fff;
+    background: #000;
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+}
+```
+
+### Comentários
+```css
+/* Bloco de comentario de secao 
+================================================== */
+
+/* Bloco de comentario da sub-secao 
+========================== */
+
+/* Comentario basico */
+
+```
