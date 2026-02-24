@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organização de CSS - Semântica</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- o js-header é utilizado para o JavaScript encontrar o header, não para estilização -->
+    <header class="float-left js-header"></header>
+    <main class="row">
+      <!-- is-active é um estado, não uma variação do componente container -->
+      <!-- o js-container é utilizado para o JavaScript encontrar o container, não para estilização -->
+      <div class="js-container is-active">
+        <a href="#" class="btn-default">Link</a>
+      </div>
+      <div class="sidebar is-active"></div>
+      <div class="col-12"></div>
+    </main>
+    <footer class="col-12"></footer>
+  </body>
+
+    <!--
+        Semântica é a prática de nomear as classes de acordo com o que elas representam, e não de acordo com a estilização.
+        Isso torna o código mais legível e fácil de entender, além de facilitar a manutenção e a reutilização dos estilos. Nunca nomeia pensando no estilo, mas sim no significado do elemento.   
+    -->
+</html>
