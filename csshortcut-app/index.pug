@@ -1,0 +1,11 @@
+html(lang="pt-br")
+    - var nome = 'Curso Front-End'
+    - var txt = true 
+    head 
+        title=nome
+    body 
+        if txt
+            header.
+            realizando um interpolação aqui: #{nome}.
+        else
+            div Nao TXT
