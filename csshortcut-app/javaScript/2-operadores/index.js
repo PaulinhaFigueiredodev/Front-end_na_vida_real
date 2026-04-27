@@ -2,36 +2,6 @@
 /**
  * assim para mais de uma linha
  */
-
-/**
- * PARTE 1: Tipos primitivos
- * https://developer.mozilla.org/pt-BR/docs/Glossary/Primitive
- */
-
-// string
-'Meu nome é'
-
-// number
-42
-
-// boolean
-true
-false
-
-/**
- * Null undefined symbol
- */
-
-/**
- * PARTE 2: Declarando variaveis (variables)
- * https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types
- */
-var nome = 'Paulinha';
-
-nome = 'Paola bracho'
-
-console.log(nome);
-
 /**
  * PARTE 3: Operadores
  * https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators
