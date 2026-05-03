@@ -1,0 +1,23 @@
+{
+  "name": "front-end_na_vida_real",
+  "version": "1.0.0",
+  "description": "Criado para guardar codigo das aulas realizadas nos cursos: - Front end da vida real. - Organização de CSS Remaster.",
+  "homepage": "https://github.com/PaulinhaFigueiredodev/Front-end_na_vida_real#readme",
+  "bugs": {
+    "url": "https://github.com/PaulinhaFigueiredodev/Front-end_na_vida_real/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulinhaFigueiredodev/Front-end_na_vida_real.git"
+  },
+  "license": "ISC",
+  "author": "Paula Figueiredo",
+  "type": "commonjs",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1"
+  }
+}
