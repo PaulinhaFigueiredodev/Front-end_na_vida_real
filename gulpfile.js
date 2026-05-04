@@ -5,6 +5,5 @@ function pug() {
     return src('./src/*.pug')
     .pipe(pugPlugin())
     .pipe(dest('./out'))
-}
-
-exports.default = series();
+} 
+exports.default = series(pug);
