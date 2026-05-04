@@ -1,6 +1,7 @@
 # CSShortcut APP
 
-> Projeto descolado <3
+> Criado para guardar codigo das aulas realizadas no curso:
+- Front end da vida real.
 
 ## Stack
 
