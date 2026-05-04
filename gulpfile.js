@@ -1,13 +1,10 @@
-var { series } = require('gulp')
+var { series, src, dest } = require('gulp')
+var pugPlugin = require ('gulp-pug')
 
-function demo(done) {
-    console.log('demo')
-    done();
+function pug() {
+    return src('./src/*.pug')
+    .pipe(pugPlugin())
+    .pipe(dest('./out'))
 }
 
-function demo1(done) {
-    console.log('demo 1')
-    done();
-}
-
-exports.default = series(demo, demo1);
+exports.default = series();
