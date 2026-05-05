@@ -11,32 +11,32 @@
 
 ## Folders Structure
 
-.
-├── README.md
-├── LICENSE.md
-├── CONTRIBUTING.md
-├── out/
-├── src/
-|   ├── icons/
-|   ├── assets/
-|   |   ├── img/
-|   |   ├── scripts/
-|   |   |   └── script.js
-|   |   └── styles/
-|   |       ├── modules/
-|   |       └── style.styl
-|   ├── partials/
-|   |   ├── footer.pug
-|   |   └── header.pug
-|   ├── layouts/
-|   |   └── default.pug
-|   ├── projects.pug
-|   └── index.pug
-├── gulpfile.js
-├── package.json
-├── projects.json
-├── .editorconfig
-└── .gitignore
+	.
+	├── README.md
+	├── LICENSE.md
+	├── CONTRIBUTING.md
+	├── out/
+	├── src/
+	|   ├── icons/
+	|   ├── assets/
+	|   |   ├── img/
+	|   |   ├── scripts/
+	|   |   |   └── script.js
+	|   |   └── styles/
+	|   |       ├── modules/
+	|   |       └── style.styl
+	|   ├── partials/
+	|   |   ├── footer.pug
+	|   |   └── header.pug
+	|   ├── layouts/
+	|   |   └── default.pug
+	|   ├── projects.pug
+	|   └── index.pug
+	├── gulpfile.js
+	├── package.json
+	├── projects.json
+	├── .editorconfig
+	└── .gitignore
 
 ## Versioning
 
@@ -45,7 +45,7 @@ To keep better organization of releases we follow the [Semantic Versioning 2.0.0
 ## Contributing
 Find on our [roadmap](https://github.com/PaulinhaFigueiredodev/Front-end_na_vida_real/tree/main/csshortcut-app) the next steps of the project ;)
 <br>
-Want to contribute? [Follow these recommendations](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/CONTRIBUTING.md).
+Want to contribute? [Follow these recommendations]().
 
 ## License
-[MIT License](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
+[MIT License]()
