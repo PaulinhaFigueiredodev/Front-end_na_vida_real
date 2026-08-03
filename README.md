@@ -26,6 +26,7 @@ Entre os conteúdos presentes no repositório estão:
 * estruturas de repetição;
 * funções;
 * arrow functions;
+* let e const;
 * objetos;
 * arrays;
 * organização e arquitetura de CSS;
@@ -56,7 +57,8 @@ Front-end_na_vida_real/
 │   │   ├── 5-funcoes/
 │   │   ├── 6-objetos/
 │   │   ├── 7-arrays/
-│   │   └── 8-arrow-functions/
+│   │   ├── 8-arrow-functions/
+│   │   └── 9-let-e-const/
 │   ├── src/
 │   ├── out/
 │   ├── gulpfile.js
