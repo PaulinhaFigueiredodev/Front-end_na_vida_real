@@ -25,6 +25,7 @@ Entre os conteúdos presentes no repositório estão:
 * condicionais;
 * estruturas de repetição;
 * funções;
+* arrow functions;
 * objetos;
 * arrays;
 * organização e arquitetura de CSS;
@@ -47,6 +48,15 @@ Entre os conteúdos presentes no repositório estão:
 Front-end_na_vida_real/
 ├── csshortcut-app/
 │   ├── javaScript/
+│   │   ├── 0-tipos-primitivos/
+│   │   ├── 1-declarando-variaveis/
+│   │   ├── 2-operadores/
+│   │   ├── 3-condicionais/
+│   │   ├── 4-for/
+│   │   ├── 5-funcoes/
+│   │   ├── 6-objetos/
+│   │   ├── 7-arrays/
+│   │   └── 8-arrow-functions/
 │   ├── src/
 │   ├── out/
 │   ├── gulpfile.js
