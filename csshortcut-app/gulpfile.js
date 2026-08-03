@@ -23,12 +23,19 @@ function imagemin() {
     .pipe(dest('./out/assets/img/'))
 }
 
+function scripts() {
+    return src('./src/assets/scripts/*.js')
+        .pipe(dest('./out/assets/scripts/'))
+        .pipe(connect.reload())
+}
+
 // Qualquer alteracao que ocorra nos arquivos pug ou stylus, o gulp vai executar as tarefas correspondentes
 function watchTask() {
     watch('./src/*.pug', pug)
     watch('./src/layouts/*.pug', pug)
     watch('./src/partials/*.pug', pug)
     watch('./src/assets/styles/*.styl', stylus)
+    watch('./src/assets/scripts/*.js', scripts)
 }
 
 // Tarefa para iniciar o servidor de desenvolvimento
@@ -41,4 +48,4 @@ function serve() {
 
 exports.server = parallel (watchTask, serve)
 
-exports.build = series(pug, stylus, imagemin);
+exports.build = series(pug, stylus, scripts, imagemin);
